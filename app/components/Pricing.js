@@ -1,7 +1,4 @@
-import React from 'react'
-import Image from 'next/image'
-import phonering from "@/public/icons/ring.png"
-import message from "@/public/icons/message.png"
+
 import Price from '@/components/ui/Price'
 const Pricing = () => {
   return (
