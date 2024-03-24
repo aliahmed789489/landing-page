@@ -2,7 +2,7 @@ import Image from 'next/image'
 import phonering from "@/public/icons/ring.png"
 import message from "@/public/icons/message.png"
 
-const Testimonial = (props) => {
+const Price = (props) => {
   return (
     <div className={`bg-${props.color} w-[100%]  rounded-lg pb-10`}>
                     <div className={`bg-${props.seccolor} rounded-l-full mt-4 `} ><h3 className={`text-${props.headingcolor} font-bold text-xl py-4 px-10 text-center `}>STANDARD ABSTRACT LOGO</h3></div>
@@ -53,4 +53,4 @@ const Testimonial = (props) => {
   )
 }
 
-export default Testimonial
+export default Price

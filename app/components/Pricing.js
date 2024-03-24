@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import phonering from "@/public/icons/ring.png"
 import message from "@/public/icons/message.png"
-import Testimonial from '@/components/ui/Testimonial'
+import Price from '@/components/ui/Price'
 const Pricing = () => {
   return (
     <section className="W-[100%]   flex justify-center py-10 z-10 mt-10 ">
@@ -21,9 +21,9 @@ const Pricing = () => {
             </div>
 
             <div className='w-full flex flex-col sm:flex-row mt-10 gap-4 '>
-                <Testimonial color="grey" seccolor="red" headingcolor="white"/>
-                <Testimonial color="red" seccolor="white" headingcolor="grey"/>
-                <Testimonial color="grey" seccolor="red" headingcolor="white"/>
+                <Price color="grey" seccolor="red" headingcolor="white"/>
+                <Price color="red" seccolor="white" headingcolor="grey"/>
+                <Price color="grey" seccolor="red" headingcolor="white"/>
 
             </div>
         </div>
