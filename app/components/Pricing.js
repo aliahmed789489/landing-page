@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import phonering from "@/public/icons/ring.png"
 import message from "@/public/icons/message.png"
-import Testimonial from '@/components/ui/testimonial'
+import Testimonial from '@/components/ui/Testimonial'
 const Pricing = () => {
   return (
     <section className="W-[100%]   flex justify-center py-10 z-10 mt-10 ">
